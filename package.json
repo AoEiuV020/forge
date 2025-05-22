@@ -92,8 +92,8 @@
     "x509"
   ],
   "scripts": {
-    "prepublish": "npm run build",
     "build": "webpack",
+    "ohos-build": "webpack --config webpack-ohos.config.js",
     "test-build": "webpack --config webpack-tests.config.js",
     "test": "npm run test-node",
     "test-node": "cross-env NODE_ENV=test mocha -t 30000 -R ${REPORTER:-spec} tests/unit/index.js",
