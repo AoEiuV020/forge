@@ -1,5 +1,5 @@
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
-import forge from '../main/js/forge'
+
 export default function localUnitTest() {
   describe('localUnitTest', () => {
     // Defines a test suite. Two parameters are supported: test suite name and test suite function.
@@ -22,8 +22,12 @@ export default function localUnitTest() {
       // This API supports only one parameter: clear action function.
     });
     it('assertContain', 0, () => {
-      const a = forge.util.binary.raw.encode(new Uint8Array([33,34]));
-      console.log(a.toString());
+      // Defines a test case. This API supports three parameters: test case name, filter parameter, and test case function.
+      let a = 'abc';
+      let b = 'b';
+      // Defines a variety of assertion methods, which are used to declare expected boolean conditions.
+      expect(a).assertContain(b);
+      expect(a).assertEqual(a);
     });
   });
 }
