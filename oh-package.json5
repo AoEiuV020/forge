@@ -4,6 +4,7 @@
   "description": "JavaScript implementations of network transports, cryptography, ciphers, PKI, message digests, and various utilities.",
   "homepage": "https://github.com/AoEiuV020/forge",
   "repository": "https://github.com/AoEiuV020/forge",
+  "author": "AoEiuV020",
   "bugs": {
     "url": "https://github.com/AoEiuV020/forge/issues",
     "email": "aoeiuv020@gmail.com"
