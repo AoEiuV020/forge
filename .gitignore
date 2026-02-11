@@ -20,3 +20,4 @@ npm-debug.log
 /build
 /.cxx
 /.test
+BuildProfile.ets
